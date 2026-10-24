@@ -1,0 +1,103 @@
+
+# ==========================================
+# TutorVideo Mobile App - React Native / Expo
+# ==========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+dist/
+.expo-generated/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Android build files
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+*.keystore
+*.jks
+!android/app/debug.keystore
+
+# iOS build files
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Native build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.hmap
+*.dSYM/
+*.dSYM.zip
+
+# Metro bundler
+.metro-health-check*
+.metro-cache/
+
+# Babel / TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
+tmp/
+temp/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Local workspace / trunk metadata
+.trunk/
+
+# EAS local credentials
+credentials.json
+
+# Miscellaneous
+*.orig
+*.rej

@@ -1,0 +1,9 @@
+export { default as easternCapeSchools } from "./easternCapeSchools";
+export { default as freeStateSchools } from "./freeStateSchools";
+export { default as gautengSchools } from "./gautengSchools";
+export { default as kwaZuluNatalSchools } from "./kwaZuluNatalSchools";
+export { default as limpopoSchools } from "./limpopoSchools";
+export { default as mpumalangaSchools } from "./mpumalangaSchools";
+export { default as northernCapeSchools } from "./northernCapeSchools";
+export { default as northWestSchools } from "./northWestSchools";
+export { default as westernCapeSchools } from "./westernCapeSchools";
